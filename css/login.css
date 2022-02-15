@@ -1,0 +1,33 @@
+
+body{
+    background-color: #eeeeee;
+}
+
+.detail-btn {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px gray inset;
+    color: white;
+    background-color:  green;
+    transition: ease 500ms;
+    margin-top: 12px;
+    width: 100%;
+}
+.detail-btn:hover {
+    box-shadow: 0 1px 1px 1px black;
+}
+
+.form-input {
+    height: 40px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.container {
+    margin: auto;
+    border: 1px black inset;
+    width: 350px;
+    padding: 15px;
+    box-shadow: 1px 0 5px 1px black;
+    background-color: white;
+}

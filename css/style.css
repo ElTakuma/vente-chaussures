@@ -1,0 +1,221 @@
+* {
+    /*font-family: "Monospaced", serif;*/
+    /*font-family: "Monotype Corsiva", serif;*/
+}
+.image {
+    width: 75px;
+    height: auto;
+    image-resolution: normal;
+    /*position: absolute;*/
+}
+.image2 {
+    width: 155px;
+    height: auto;
+    image-resolution: normal;
+    /*position: absolute;*/
+}
+.image3 {
+    width: 110px;
+    height: auto;
+    image-resolution: normal;
+    /*position: absolute;*/
+}
+
+.table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.table tbody tr {
+    border: 1px lightgrey outset;
+    text-align: start;
+    vertical-align: top;
+}
+.table thead {
+    border-bottom: 3px black inset;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.table tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+.body-head {
+    background-color: blue;
+    padding-left: 4%;
+    padding-top: 30px;
+    margin: -22px -8px 50px;
+    height: auto;
+    position: static;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div {
+    /*margin-right: 5px;*/
+    /*margin-left: 5px;*/
+    padding: 7px;
+    margin-bottom: 15px;
+    transition: ease 700ms;
+}
+.menu a:visited, .menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu div:hover  {
+    color: blue;
+    background-color: rgba(255,255,255,1);
+    border-bottom: white;
+}
+.menu_dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 100px;
+    padding: 12px 16px;
+    margin-top: 8px;
+    color: white;
+    /*border: 1px white inset;*/
+    box-shadow: 0 0 4px 1px lightgrey;
+    z-index: 1;
+}
+.menu_dropdown:hover .menu_dropdown_content {
+    display: block;
+}
+
+.profil_dropdown {
+    position: relative;
+    display: inline-block;
+    color: white!important;
+    cursor: pointer;
+    width: 200px;
+}
+
+.profil_dropdown span{
+    color: white;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.profil_dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    min-width: 100px;
+    padding: 12px 16px;
+    margin-top: 8px;
+    color: black;
+    /*border: 1px white inset;*/
+    box-shadow: 0 0 4px 1px lightgrey;
+    z-index: 1;
+    text-align: center;
+}
+
+.profil_dropdown_content a {
+    text-decoration: none;
+    color: black;
+    height: 25px;
+    /*border: 1px black inset;*/
+    padding: 10px;
+    width: 100px;
+}
+.profil_dropdown_content a:hover {
+    background-color: rgba(0,0,255, 0.3);
+}
+
+.profil_dropdown:hover .profil_dropdown_content {
+    display: block;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    /*background: white;*/
+}
+.pagination a{
+    list-style: none;
+    padding: 8px;
+    margin: 2px;
+    border: 1px black inset;
+    background-color: white;
+}
+.pagination a, .pagination a:hover, .pagination a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.pagination .active {
+    background-color: blue;
+    color: white!important;
+}
+
+.pagination .disabled {
+    display: none;
+}
+
+.detail-btn {
+    text-decoration: none;
+    padding: 12px;
+    /*border: 1px gray inset;*/
+    color: white;
+    background-color:  green;
+    transition: ease 500ms;
+    margin-top: 12px;
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.12) 0 1px 3px, rgba(0,0,0,0.12) 0 1px 2px;
+;
+}
+.detail-btn:hover {
+    box-shadow: rgb(38,57,77) 0 20px 30px -10px;
+}
+
+.detail-btn:active {
+    box-shadow: rgba(50,50,93,0.25) 0 50px 100px -20px,
+    white 0 30px 60px -30px,
+    white 0 -2px 6px 0 inset;
+}
+
+.option-btn {
+    text-decoration: none;
+    padding: 8px;
+    border: 1px gray inset;
+    color: white;
+    background-color:  green;
+    transition: ease 500ms;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+.option-btn:hover {
+    box-shadow: 0 1px 0 1px gray;
+}
+
+.form-input2 {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+}
+
+.content_form_update {
+    /*margin: 10px;*/
+    padding: 15px;
+    background-color: #eeeeee;
+    /*max-width: 40%;*/
+}
+
+.content_form_update span {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
